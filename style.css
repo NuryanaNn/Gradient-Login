@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.forms{
+    position: relative;
+    background: linear-gradient(to top, #33ccff 0%, #ff99cc 100%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.forms h3{
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+.forms .sci{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.forms .sci a{
+    font-size: 2rem;
+    padding: 17px 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.forms .sci a:hover{
+    transform: scale(1.1);
+}
+
+.forms .sci a:nth-child(1){
+    background: linear-gradient(to left, #33ccff 0%, #000099 100%);
+}
+.forms .sci a:nth-child(2){
+    background: #ff0000;
+}
+.forms .sci a:nth-child(3){
+    background: linear-gradient(to right, #33ccff 0%, #6699ff 100%);
+}
+
+.forms h4{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.forms h4::before{
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -53px;
+}
+
+.forms h4::after{
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -53px;
+}
+
+.forms ul{
+    margin-top: 30px;
+    list-style: none;
+}
+
+.forms ul li {
+    margin-top: 15px;
+}
+
+.forms ul li input{
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 300px;
+    background: transparent;
+}
+
+.forms span{
+    margin-top: 20px;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    left:40px ;
+    bottom: 120px;
+}
+
+.forms button{
+    margin-top: 60px;
+    padding: 8px 15px;
+    width: 150px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .09);
+    color: #fff;
+    cursor: pointer;
+}
+
+.forms button:hover{
+    transform: scale(1.1);
+}
+
+.forms p{
+    margin-top: 15px;
+    color: #fff;
+}
+
+.forms p a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: #ff66cc;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
